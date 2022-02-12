@@ -1,3 +1,4 @@
+
  <!DOCTYPE html>
 <html lang="en" style="background-color: black;">
   <head>
@@ -13,11 +14,12 @@
 
     
     <!-- Bootstrap core CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" 
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
     />
     <link
       rel="stylesheet"
@@ -49,7 +51,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/home/">Home</a>
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Question</a>
@@ -96,6 +98,10 @@
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="text-white">Page Zero</h1>
+                <form class="d-flex" action="https://www.google.com/search">
+                  <input class="form-control me-2" type="search" placeholder="Search on Google" aria-label="Search" name="q">
+                  <button class="btn btn-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
             </div>
           </div>
         </div>
@@ -136,21 +142,27 @@
                   </div>
                 </div>
               </div> 
-                <div class="row mt-2">
-                            <div class="col">
-                            <div class="accordion accordion-flush" id="accordionsearch-engines">
-                                <div class="accordion-item bg-dark text-white border border-primary">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#search-engines" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Search Engines :
-                                    </button>
-                                </h2>
-                                <div id="search-engines" class="accordion-collapse collapse" aria-labelledby="search-engines" data-bs-parent="#accordionsearch-engines">
-                                    <div class="accordion-body">
-                                     <p class="mt-2 mb-0 ">Common Search Engine :</p>
+<div class="accordion" id="accordionExample">
+              
+                          
+<div class="accordion-item">
+    <h2 class="accordion-header" id="head-search-engines">
+      <button class="accordion-button text-white" type="button" data-bs-toggle="collapse" data-bs-target="#c-search-engines" aria-expanded="true" aria-controls="c-search-engines" style=" background-color: #101E33 !important; ">
+        Search Engines :
+      </button>
+    </h2>
+    <div id="c-search-engines" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body bg-dark text-white">
+        <p class="mt-2 mb-0 ">Common Search Engine :</p>
                     <div class="btn-group mt-1">
-                          <a href="http://searx.bar/search" target="_blank" type="button" class="btn btn-primary">Searx</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://searx.bar/search" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Searx
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -161,8 +173,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://duckduckgo.com" target="_blank" type="button" class="btn btn-primary">Duckduckgo</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://duckduckgo.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Duckduckgo
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -173,8 +191,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://ecosia.org" target="_blank" type="button" class="btn btn-primary">Ecosia</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://ecosia.org" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Ecosia
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -185,8 +209,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://Yandex.com" target="_blank" type="button" class="btn btn-primary">Yandex</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://Yandex.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Yandex
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -197,8 +227,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://bing.com" target="_blank" type="button" class="btn btn-primary">Bing</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://bing.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Bing
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -209,8 +245,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://baidu.com" target="_blank" type="button" class="btn btn-primary">Baidu</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://baidu.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Baidu
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -221,8 +263,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://google.com" target="_blank" type="button" class="btn btn-primary">Google</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://google.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Google
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -233,8 +281,14 @@
                     
                     <p class="mt-2 mb-0 ">Torrent Search Engine :</p>
                     <div class="btn-group mt-1">
-                          <a href="http://btdig.com" target="_blank" type="button" class="btn btn-primary">Btdig</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://btdig.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Btdig
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -245,8 +299,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://solidtorrents.net" target="_blank" type="button" class="btn btn-primary">Solidtorrents</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://solidtorrents.net" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Solidtorrents
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -257,8 +317,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://torrentseeker.com" target="_blank" type="button" class="btn btn-primary">Torrentseeker</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://torrentseeker.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Torrentseeker
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -269,8 +335,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://zooqle.com" target="_blank" type="button" class="btn btn-primary">Zooqle</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://zooqle.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Zooqle
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -281,8 +353,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://seventorrents.unblockit.how" target="_blank" type="button" class="btn btn-primary">Seventorrents</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://seventorrents.unblockit.how" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Seventorrents
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -293,8 +371,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://aiosearch.com" target="_blank" type="button" class="btn btn-primary">Aiosearch</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://aiosearch.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Aiosearch
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -305,8 +389,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://Dirtytorrents.com" target="_blank" type="button" class="btn btn-primary">Dirtytorrents</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://Dirtytorrents.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Dirtytorrents
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -317,8 +407,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://bt4g.org" target="_blank" type="button" class="btn btn-primary">Bt4g.org</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://bt4g.org" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Bt4g.org
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -329,8 +425,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://snowfl.com" target="_blank" type="button" class="btn btn-primary">Snowfl</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://snowfl.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Snowfl
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -341,8 +443,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://bitsearch.to" target="_blank" type="button" class="btn btn-primary">Bitsearch</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://bitsearch.to" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Bitsearch
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -353,8 +461,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://btmet.com" target="_blank" type="button" class="btn btn-primary">Btmet</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://btmet.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Btmet
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -365,8 +479,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://xbit.pw" target="_blank" type="button" class="btn btn-primary">Xbit.pw</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://xbit.pw" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Xbit.pw
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -377,8 +497,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://atorrents.com" target="_blank" type="button" class="btn btn-primary">Atorrents</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://atorrents.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Atorrents
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -389,8 +515,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://rutor.info" target="_blank" type="button" class="btn btn-primary">Rutor</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://rutor.info" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Rutor
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -401,8 +533,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://veoble.com/torrent/" target="_blank" type="button" class="btn btn-primary">Veoble</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://veoble.com/torrent/" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Veoble
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -413,8 +551,14 @@
                     
                     <p class="mt-2 mb-0 ">Other Search Engine :</p>
                     <div class="btn-group mt-1">
-                          <a href="http://faganfinder.com" target="_blank" type="button" class="btn btn-primary">Faganfinder</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://faganfinder.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Faganfinder
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -425,8 +569,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://wiby.me" target="_blank" type="button" class="btn btn-primary">Wiby</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://wiby.me" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Wiby
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -437,8 +587,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://theoldnet.com" target="_blank" type="button" class="btn btn-primary">Theoldnet</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://theoldnet.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Theoldnet
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -449,8 +605,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://trace.moe" target="_blank" type="button" class="btn btn-primary">Trace.moe</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://trace.moe" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Trace.moe
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -461,8 +623,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://filelisting.com" target="_blank" type="button" class="btn btn-primary">Filelisting</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://filelisting.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Filelisting
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -473,8 +641,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://dedigger.com" target="_blank" type="button" class="btn btn-primary">Dedigger</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://dedigger.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Dedigger
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -485,8 +659,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://mmnt.ru" target="_blank" type="button" class="btn btn-primary">Mmnt.ru</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://mmnt.ru" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Mmnt.ru
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -497,8 +677,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://search.mibbit.com" target="_blank" type="button" class="btn btn-primary">Mibbit</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://search.mibbit.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Mibbit
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -509,8 +695,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://searchftps.net" target="_blank" type="button" class="btn btn-primary">Searchftps</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://searchftps.net" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Searchftps
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -521,8 +713,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://filepursuit.com" target="_blank" type="button" class="btn btn-primary">Filepursuit</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://filepursuit.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Filepursuit
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -533,8 +731,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://odcrawler.xyz" target="_blank" type="button" class="btn btn-primary">Odcrawler</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://odcrawler.xyz" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Odcrawler
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -545,8 +749,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://libraries.io" target="_blank" type="button" class="btn btn-primary">Libraries.io</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://libraries.io" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Libraries.io
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -557,8 +767,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://gifcities.org" target="_blank" type="button" class="btn btn-primary">Gifcities</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://gifcities.org" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Gifcities
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -569,8 +785,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://shodan.io" target="_blank" type="button" class="btn btn-primary">Shodan.io</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://shodan.io" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Shodan.io
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -580,53 +802,28 @@
                       </div>
                     
                     
-                                    </div>
-                                </div> 
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-
-                
-                <div class="row mt-2">
-                            <div class="col">
-                            <div class="accordion accordion-flush" id="accordionmovies">
-                                <div class="accordion-item bg-dark text-white border border-primary">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#movies" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Movies :
-                                    </button>
-                                </h2>
-                                <div id="movies" class="accordion-collapse collapse" aria-labelledby="movies" data-bs-parent="#accordionmovies">
-                                    <div class="accordion-body">
-                                     <p class="mt-2 mb-0 ">Subscription Based Movie Streaming :</p>
+      </div>
+    </div>
+  </div>
+                            
+<div class="accordion-item">
+    <h2 class="accordion-header" id="head-movies-and-tv-shows">
+      <button class="accordion-button text-white" type="button" data-bs-toggle="collapse" data-bs-target="#c-movies-and-tv-shows" aria-expanded="true" aria-controls="c-movies-and-tv-shows" style=" background-color: #1A0E2D !important; ">
+        Movies And Tv Shows :
+      </button>
+    </h2>
+    <div id="c-movies-and-tv-shows" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body bg-dark text-white">
+        <p class="mt-2 mb-0 ">Freemium Streaming :</p>
                     <div class="btn-group mt-1">
-                          <a href="http://hbomax.com" target="_blank" type="button" class="btn btn-primary">Hbo max</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="visually-hidden">Toggle Dropdown</span>
-                          </button>
-                          <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">About</a></li>
-                          <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                      </div>
-                    
-                    
-                    <div class="btn-group mt-1">
-                          <a href="http://netflix.com" target="_blank" type="button" class="btn btn-primary">Netflix</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="visually-hidden">Toggle Dropdown</span>
-                          </button>
-                          <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">About</a></li>
-                          <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                      </div>
-                    
-                    
-                    <div class="btn-group mt-1">
-                          <a href="http://disneyplus.com" target="_blank" type="button" class="btn btn-primary">Disneyplus</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://tubitv.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Tubi tv
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -637,8 +834,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://hulu.com" target="_blank" type="button" class="btn btn-primary">Hulu</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://moviesfoundonline.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Moviesfoundonline
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -649,8 +852,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://primevideo.com" target="_blank" type="button" class="btn btn-primary">Primevideo</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://contv.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Contv.com
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -661,32 +870,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://tv.apple.com" target="_blank" type="button" class="btn btn-primary">Appletv</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="visually-hidden">Toggle Dropdown</span>
-                          </button>
-                          <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">About</a></li>
-                          <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                      </div>
-                    
-                    <p class="mt-2 mb-0 ">Freemium Movie Streaming :</p>
-                    <div class="btn-group mt-1">
-                          <a href="http://tubitv.com" target="_blank" type="button" class="btn btn-primary">Tubi tv</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="visually-hidden">Toggle Dropdown</span>
-                          </button>
-                          <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">About</a></li>
-                          <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                      </div>
-                    
-                    
-                    <div class="btn-group mt-1">
-                          <a href="http://moviesfoundonline.com" target="_blank" type="button" class="btn btn-primary">Moviesfoundonline</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://midnightpulp.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Midnightpulp
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -697,8 +888,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://crackle.com/movies" target="_blank" type="button" class="btn btn-primary">Crackle</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://asiancrush.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Asiancrush
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -709,8 +906,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://vudu.com/content/movies/free" target="_blank" type="button" class="btn btn-primary">Vudu</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://channel4.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Channel4
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -721,8 +924,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://imdb.com/freedive/" target="_blank" type="button" class="btn btn-primary">Imdb freedive</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://netzkino.de" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Netzkino.de
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -733,20 +942,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://popcornflix.com" target="_blank" type="button" class="btn btn-primary">Popcornflix</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="visually-hidden">Toggle Dropdown</span>
-                          </button>
-                          <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">About</a></li>
-                          <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                      </div>
-                    
-                    <p class="mt-2 mb-0 ">General Movies Informative Sites :</p>
-                    <div class="btn-group mt-1">
-                          <a href="http://themoviedb.org" target="_blank" type="button" class="btn btn-primary">Themoviedb</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://crackle.com/movies" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Crackle
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -757,8 +960,140 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://imdb.com" target="_blank" type="button" class="btn btn-primary">Imdb</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://vudu.com/content/movies/free" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Vudu
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://imdb.com/freedive/" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Imdb freedive
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://popcornflix.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Popcornflix
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    <p class="mt-2 mb-0 ">News And General Information :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://themoviedb.org" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Themoviedb
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://imdb.com/news" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Imdb news
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://rottentomatoes.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Rottentomatoes
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://comingsoon.net" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Comingsoon
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://screenrant.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Screenrant
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -769,40 +1104,14 @@
                     
                     <p class="mt-2 mb-0 ">Questionable Streaming Sites :</p>
                     <div class="btn-group mt-1">
-                          <a href="http://fmovies.to" target="_blank" type="button" class="btn btn-primary">Fmovies</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
-                          <span class="visually-hidden">Toggle Dropdown</span>
-                          </button>
-                          <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">About</a></li>
-                          <li><a class="dropdown-item" href="#">Report</a></li>
-                          </ul>
-                      </div>
-                    
-                    
-                                    </div>
-                                </div> 
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-
-                
-                <div class="row mt-2">
-                            <div class="col">
-                            <div class="accordion accordion-flush" id="accordionstorage">
-                                <div class="accordion-item bg-dark text-white border border-primary">
-                                <h2 class="accordion-header" id="flush-headingOne">
-                                    <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#storage" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    Storage :
-                                    </button>
-                                </h2>
-                                <div id="storage" class="accordion-collapse collapse" aria-labelledby="storage" data-bs-parent="#accordionstorage">
-                                    <div class="accordion-body">
-                                     <p class="mt-2 mb-0 ">Cloud Storage :</p>
-                    <div class="btn-group mt-1">
-                          <a href="http://mega.nz" target="_blank" type="button" class="btn btn-primary">Mega.nz</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://fmovies.to" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Fmovies
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -813,8 +1122,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://drive.google.com" target="_blank" type="button" class="btn btn-primary">Google-drive</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://yesmovies.ag" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Yesmovies
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -825,8 +1140,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://dropbox.com" target="_blank" type="button" class="btn btn-primary">Dropbox</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://zoechip.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Zoechip
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -837,8 +1158,14 @@
                     
                     
                     <div class="btn-group mt-1">
-                          <a href="http://microsoft.com/en-ww/microsoft-365/onedrive/compare-onedrive-plans" target="_blank" type="button" class="btn btn-primary">Onedrive</a>
-                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a 
+                            href="http://c1ne.co" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            C1ne.co
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
                           <span class="visually-hidden">Toggle Dropdown</span>
                           </button>
                           <ul class="dropdown-menu">
@@ -848,14 +1175,1406 @@
                       </div>
                     
                     
-                                    </div>
-                                </div> 
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-
-                  </div>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://primewire.li" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Primewire
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://soapgate.org" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Soap2day
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://series9.me" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Series9
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://ling.online/en/videos/films/" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Ling.online
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://onionplay.se" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Onionplay
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://moviestars.to" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Moviestars
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://azm.to" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Azmovies
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://himovies.to" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Himovies
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://ev01.net" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Ev01
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://hdmoviebox.org" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Hdmoviebox
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    <p class="mt-2 mb-0 ">Tv Shows Questionable Streaming :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://noxx.is" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Noxx.is
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://couchtuner.show" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Couchtuner
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://srsone.click" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Srsone
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://tvseries.watch" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Tvseries.watch
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://mywatchseries.stream" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Mywatchseries
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://turkish123.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Turkish123
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    <p class="mt-2 mb-0 ">Other Streaming Sites :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://archive.org/details/moviesandfilms?tab=collection" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Archive.org
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://rarefilmm.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Rarefilmm
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://classiccinemaonline.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Classiccinemaonline
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://thefilmdetective.tv" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Thefilmdetective
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://thewutangcollection.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Thewutangcollection
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://club-mst3k.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Club-mst3k
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://loc.gov/film-and-videos/" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Library of congress
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://footagefarm.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Footagefarm
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://animation.filmarchives.jp" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Japanese animated film archive
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://meiji.filmarchives.jp" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Japanese film archive
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://jp-films.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Jp-films
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://nfb.ca" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Nfb.ca
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+      </div>
+    </div>
+  </div>
+                            
+<div class="accordion-item">
+    <h2 class="accordion-header" id="head-anime-and-cartoon">
+      <button class="accordion-button text-white" type="button" data-bs-toggle="collapse" data-bs-target="#c-anime-and-cartoon" aria-expanded="true" aria-controls="c-anime-and-cartoon" style=" background-color: #453A02 !important; ">
+        Anime And Cartoon :
+      </button>
+    </h2>
+    <div id="c-anime-and-cartoon" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body bg-dark text-white">
+        <p class="mt-2 mb-0 ">News And General Information :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://myanimelist.net" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Myanimelist
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://anidb.net" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Anidb
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://anilist.co" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Anilist
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://anisearch.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Anisearch
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://annict.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Annict
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://anime-planet.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Anime planet
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://mangaupdates.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Mangaupdates
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://shikimori.one" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Shikimori
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://animenewsnetwork.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Animenewsnetwork
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://kitsu.io" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Kitsu
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://manga.tokyo" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Manga.tokyo
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://otakuusamagazine.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Otakuusamagazine
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    <p class="mt-2 mb-0 ">Freemium Streaming :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://funimation.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Funimation
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://crunchyroll.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Crunchyroll
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://tubitv.com/category/anime" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Tubitv
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://retrocrush.tv" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Retrocrush
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://midnightpulp.com/browse/anime" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Midnightpulp
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://asiancrush.com/browse/anime" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Asiancrush
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://watch.pokemon.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Pokemon.com
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://wakanim.tv" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Wakanim.tv
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://contv.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Contv.com
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://netzkino.de/category/animekino" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Netzkino.de
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    <p class="mt-2 mb-0 ">Questionable Anime Streaming Sites :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://zoro.to" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Zoro.to
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://9anime.to" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            9anime
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://5anime.net" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            5anime
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://genoanime.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Genoanime
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://animepahe.ru" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Animepahe
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://animefox.io" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Animefox
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://anime8.ru" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Anime8
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://11anime.fr" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            11anime
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://gogoanime.fi" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Gogoanime
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    <p class="mt-2 mb-0 ">Cartoon Streaming :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://wco.tv" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            Wco.tv
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://kisscartoon.help" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Kisscartoon
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://kimcartoon.li" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Kimcartoon
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://toonamiaftermath.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Toonamiaftermath
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://kisscartoon.info" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Kisscartoon.info
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://watchcartoononline.bz" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Watchcartoononline.bz
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://anime-world.in" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #2E5793 !important; ">
+                            Anime world india
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://video.disney.com/series/" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Diseny video
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://topcartoons.tv" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C1301C !important; ">
+                            Topcartoons
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://supercartoons.net" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Supercartoons
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://b98.tv" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C4A705 !important; ">
+                            B98.tv
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    <p class="mt-2 mb-0 ">Other Anime Or Cartoon Related Sites :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://themes.moe" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Themes.moe
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://github.com/chirag-droid/animeflix" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Animeflix
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+      </div>
+    </div>
+  </div>
+                            
+<div class="accordion-item">
+    <h2 class="accordion-header" id="head-storage">
+      <button class="accordion-button text-white" type="button" data-bs-toggle="collapse" data-bs-target="#c-storage" aria-expanded="true" aria-controls="c-storage" style=" background-color: #44110A !important; ">
+        Storage :
+      </button>
+    </h2>
+    <div id="c-storage" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body bg-dark text-white">
+        <p class="mt-2 mb-0 ">Cloud Storage :</p>
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://mega.nz" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #177245 !important; ">
+                            Mega.nz
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://drive.google.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #4B2882 !important; ">
+                            Google drive
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://dropbox.com" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Dropbox
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+                    <div class="btn-group mt-1">
+                          <a 
+                            href="http://microsoft.com/en-ww/microsoft-365/onedrive/compare-onedrive-plans" 
+                            target="_blank" type="button" 
+                            class="btn text-white" 
+                            style=" background-color: #C96112 !important; ">
+                            Onedrive
+                          </a>
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+                          <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                          <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">About</a></li>
+                          <li><a class="dropdown-item" href="#">Report</a></li>
+                          </ul>
+                      </div>
+                    
+                    
+      </div>
+    </div>
+  </div>
+                  
+</div>
+</div>
     </main>
 
     <footer class="text-muted py-5 bg-dark">
@@ -876,11 +2595,7 @@
       </div>
     </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 </html>
  
