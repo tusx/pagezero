@@ -37,6 +37,14 @@
       .border-start {
         border-left: 1px solid #3c4044 !important;
       }
+      .mainn-title:before {
+        content: "";
+        display: inline-block;
+        background: url("https://i.imgur.com/ZWrhacz.png") no-repeat;
+        background-size: contain;
+        width: 100px;
+        height: 80px;
+      }
     </style>
   </head>
   <body>
@@ -75,7 +83,7 @@
         <div class="container">
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
-              <h1 class="text-white">PageZero.xyz</h1>
+              <h1 class="text-white mainn-title">PageZero.xyz</h1>
             </div>
           </div>
         </div>
@@ -142,7 +150,7 @@
                 <div class="card-body bg-dark text-white">
                   <button
                     type="button"
-                    class="clas-btn btn mt-1 rounded-pill btn-outline-primary"
+                    class="clas-btn btn mt-1 rounded-pill btn-success text-white"
                     data-tag-show="search-engine"
                     onclick="toggle_me(this);"
                   >
@@ -363,8 +371,12 @@
         </p>
       </div>
     </footer>
-
     <script>
+      window.addEventListener("load", (event) => {
+        let site_list = get_sites_with_tag("search-engine");
+        let sites_for_cat = get_links_for_cat(site_list);
+        show_links(sites_for_cat);
+      });
       const link_cat = [
         "general",
         "news",
