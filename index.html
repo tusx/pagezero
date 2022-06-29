@@ -9,7 +9,12 @@
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
     <meta name="generator" content="Hugo 0.88.1" />
-    <title>PageZero</title>
+    <link
+      rel="shortcut icon"
+      href="https://i.imgur.com/Udgm0jN.png"
+      type="image/png"
+    />
+    <title>PageZero: The only start page you need</title>
 
     <!-- Bootstrap core CSS -->
     <link
@@ -21,7 +26,26 @@
     />
 
     <!-- style -->
-    <link rel="stylesheet" href="main.css" />
+    <style>
+      .bg-dark {
+        background-color: rgb(28, 30, 31) !important;
+      }
+      .card {
+        background-color: rgb(24, 26, 27);
+        border-color: rgb(83, 82, 82);
+      }
+      .border-start {
+        border-left: 1px solid #3c4044 !important;
+      }
+      .mainn-title:before {
+        content: "";
+        display: inline-block;
+        background: url("https://i.imgur.com/ZWrhacz.png") no-repeat;
+        background-size: contain;
+        width: 100px;
+        height: 80px;
+      }
+    </style>
   </head>
   <body>
     <main>
@@ -59,7 +83,7 @@
         <div class="container">
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
-              <h1 class="text-white">PageZero.xyz</h1>
+              <h1 class="text-white mainn-title">PageZero.xyz</h1>
             </div>
           </div>
         </div>
@@ -126,7 +150,7 @@
                 <div class="card-body bg-dark text-white">
                   <button
                     type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
+                    class="clas-btn btn mt-1 rounded-pill btn-success text-white"
                     data-tag-show="search-engine"
                     onclick="toggle_me(this);"
                   >
@@ -156,7 +180,7 @@
                   </button>
                   <button
                     type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
+                    class="clas-btn btn mt-1 rounded-pill btn-outline-primary"
                     data-tag-show="movie"
                     onclick="toggle_me(this);"
                   >
@@ -217,7 +241,7 @@
 
                   <button
                     type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
+                    class="clas-btn btn mt-1 rounded-pill btn-outline-primary"
                     data-tag-show="tv"
                     onclick="toggle_me(this);"
                   >
@@ -246,7 +270,15 @@
                   </button>
                   <button
                     type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
+                    class="clas-btn btn mt-1 rounded-pill btn-outline-primary"
+                    data-tag-show="torrent"
+                    onclick="toggle_me(this);"
+                  >
+                    Torrent
+                  </button>
+                  <button
+                    type="button"
+                    class="clas-btn btn mt-1 rounded-pill btn-outline-primary"
                     data-tag-show="cartoon"
                     onclick="toggle_me(this);"
                   >
@@ -255,7 +287,7 @@
 
                   <button
                     type="button"
-                    class="btn rounded-pill btn-outline-primary"
+                    class="clas-btn btn rounded-pill btn-outline-primary"
                     data-tag-show="anime"
                     onclick="toggle_me(this);"
                   >
@@ -263,154 +295,23 @@
                   </button>
                   <button
                     type="button"
-                    class="btn rounded-pill btn-outline-primary"
-                    data-tag-show="streaming"
-                    onclick="toggle_me(this);"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      stroke-width="1.5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M6.90588 4.53682C6.50592 4.2998 6 4.58808 6 5.05299V18.947C6 19.4119 6.50592 19.7002 6.90588 19.4632L18.629 12.5162C19.0211 12.2838 19.0211 11.7162 18.629 11.4838L6.90588 4.53682Z"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    Streaming
-                  </button>
-
-                  <button
-                    type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
-                    data-tag-show="live"
-                    onclick="toggle_me(this);"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      stroke-width="1.5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M2 15V9C2 5.68629 4.68629 3 8 3H16C19.3137 3 22 5.68629 22 9V15C22 18.3137 19.3137 21 16 21H8C4.68629 21 2 18.3137 2 15Z"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                      />
-                      <path
-                        d="M15 9C15 9 16 10.125 16 12C16 13.875 15 15 15 15"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M12 12.01L12.01 11.9989"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M17 7C17 7 19 8.78571 19 12C19 15.2143 17 17 17 17"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M9 9C9 9 8 10.125 8 12C8 13.875 9 15 9 15"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M7 7C7 7 5 8.78571 5 12C5 15.2143 7 17 7 17"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    Live
-                  </button>
-
-                  <button
-                    type="button"
-                    class="btn rounded-pill btn-outline-primary"
-                    data-tag-show="torrent"
-                    onclick="toggle_me(this);"
-                  >
-                    Torrent
-                  </button>
-
-                  <button
-                    type="button"
-                    class="btn rounded-pill btn-outline-primary"
+                    class="clas-btn btn rounded-pill btn-outline-primary"
                     data-tag-show="comic"
                     onclick="toggle_me(this);"
                   >
                     Comic
                   </button>
-
                   <button
                     type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
+                    class="clas-btn btn mt-1 rounded-pill btn-outline-primary"
                     data-tag-show="manga"
                     onclick="toggle_me(this);"
                   >
                     Manga
                   </button>
-
                   <button
                     type="button"
-                    class="btn rounded-pill btn-outline-primary"
-                    data-tag-show="news"
-                    onclick="toggle_me(this);"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      stroke-width="1.5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8 14L16 14"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M8 10L10 10"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M8 18L12 18"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M10 3H6C4.89543 3 4 3.89543 4 5V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V5C20 3.89543 19.1046 3 18 3H14.5M10 3V1M10 3V5"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-
-                    News
-                  </button>
-
-                  <button
-                    type="button"
-                    class="btn rounded-pill btn-outline-primary"
+                    class="clas-btn btn rounded-pill btn-outline-primary"
                     data-tag-show="vpn"
                     onclick="toggle_me(this);"
                   >
@@ -425,189 +326,9 @@
                       <path
                         d="M10.8351 15.2894L11.5726 15.426L10.8351 15.2894ZM10.4771 14.582L10.8583 13.9361L10.4771 14.582ZM10.2016 21.8286L10.3402 21.0915L10.2016 21.8286ZM9.75001 21.1507L10.4875 21.2872L9.75001 21.1507ZM16.8489 19.8141L17.586 19.6755L16.8489 19.8141ZM17.7212 20.1916L17.2912 19.5771L17.7212 20.1916ZM7.87166 15.9841L7.13459 15.8455L7.87166 15.9841ZM7.73203 15.4643L7.15066 15.9381L7.73203 15.4643ZM13.5232 14.582L13.9045 15.2279L13.5232 14.582ZM13.1652 15.2894L13.9027 15.1529L13.1652 15.2894ZM16.268 15.4643L15.6866 14.9905L16.268 15.4643ZM16.1283 15.9841L16.8654 15.8455L16.1283 15.9841ZM14.2501 21.1513L13.5126 21.2878L14.2501 21.1513ZM13.7972 21.8297L13.9347 22.567L13.7972 21.8297ZM6.27883 20.1916L5.84889 20.8061L6.27883 20.1916ZM2.75 12C2.75 6.89078 6.89078 2.75 12 2.75V1.25C6.06235 1.25 1.25 6.06235 1.25 12H2.75ZM6.70878 19.5771C4.3153 17.9025 2.75 15.1368 2.75 12H1.25C1.25 15.6498 3.07379 18.8646 5.84889 20.8061L6.70878 19.5771ZM7.13459 15.8455L6.41403 19.6755L7.88817 19.9528L8.60873 16.1228L7.13459 15.8455ZM5.75 12C5.75 13.4936 6.27575 14.8646 7.15066 15.9381L8.3134 14.9905C7.64834 14.1745 7.25 13.1354 7.25 12H5.75ZM12 5.75C8.54868 5.75 5.75 8.54868 5.75 12H7.25C7.25 9.3771 9.3771 7.25 12 7.25V5.75ZM18.25 12C18.25 8.54868 15.4513 5.75 12 5.75V7.25C14.6229 7.25 16.75 9.3771 16.75 12H18.25ZM16.8493 15.9381C17.7243 14.8646 18.25 13.4936 18.25 12H16.75C16.75 13.1354 16.3517 14.1745 15.6866 14.9905L16.8493 15.9381ZM17.586 19.6755L16.8654 15.8455L15.3913 16.1228L16.1118 19.9528L17.586 19.6755ZM21.25 12C21.25 15.1368 19.6847 17.9025 17.2912 19.5771L18.1511 20.8061C20.9262 18.8646 22.75 15.6498 22.75 12H21.25ZM12 2.75C17.1092 2.75 21.25 6.89078 21.25 12H22.75C22.75 6.06235 17.9377 1.25 12 1.25V2.75ZM15.7502 12C15.7502 9.92949 14.0706 8.24996 12.0002 8.24996V9.74996C13.2422 9.74996 14.2502 10.7579 14.2502 12H15.7502ZM13.9045 15.2279C15.0061 14.5777 15.7502 13.3768 15.7502 12H14.2502C14.2502 12.8229 13.8068 13.5437 13.142 13.9361L13.9045 15.2279ZM14.9876 21.0148L13.9027 15.1529L12.4277 15.4259L13.5126 21.2878L14.9876 21.0148ZM12.0002 22.75C12.6654 22.75 13.3108 22.6834 13.9347 22.567L13.6597 21.0925C13.118 21.1935 12.5649 21.25 12.0002 21.25V22.75ZM10.063 22.5657C10.688 22.6832 11.3343 22.75 12.0002 22.75V21.25C11.435 21.25 10.8817 21.1934 10.3402 21.0915L10.063 22.5657ZM10.0977 15.1529L9.01255 21.0141L10.4875 21.2872L11.5726 15.426L10.0977 15.1529ZM8.25018 12C8.25018 13.3767 8.99426 14.5776 10.0958 15.2279L10.8583 13.9361C10.1935 13.5437 9.75018 12.8229 9.75018 12H8.25018ZM12.0002 8.24996C9.92971 8.24996 8.25018 9.92949 8.25018 12H9.75018C9.75018 10.7579 10.7581 9.74996 12.0002 9.74996V8.24996ZM11.5726 15.426C11.6951 14.7643 11.3142 14.2052 10.8583 13.9361L10.0958 15.2279C10.1005 15.2306 10.1042 15.2337 10.1066 15.2361C10.1089 15.2386 10.1082 15.2386 10.1061 15.2346C10.1039 15.2304 10.0997 15.2209 10.0971 15.2059C10.0944 15.1902 10.0942 15.1718 10.0977 15.1529L11.5726 15.426ZM10.3402 21.0915C10.4587 21.1138 10.5 21.2197 10.4875 21.2872L9.01255 21.0141C8.88408 21.708 9.3184 22.4256 10.063 22.5657L10.3402 21.0915ZM16.1118 19.9528C16.2796 20.8445 17.3238 21.385 18.1511 20.8061L17.2912 19.5771C17.3508 19.5354 17.4317 19.533 17.4888 19.5582C17.5413 19.5813 17.577 19.6277 17.586 19.6755L16.1118 19.9528ZM8.60873 16.1228C8.6883 15.6999 8.55779 15.2903 8.3134 14.9905L7.15066 15.9381C7.14395 15.9299 7.12459 15.8987 7.13459 15.8455L8.60873 16.1228ZM13.142 13.9361C12.6861 14.2052 12.3053 14.7642 12.4277 15.4259L13.9027 15.1529C13.9062 15.1718 13.9059 15.1903 13.9032 15.2059C13.9006 15.2209 13.8964 15.2304 13.8942 15.2346C13.8921 15.2386 13.8914 15.2386 13.8938 15.2362C13.8961 15.2337 13.8998 15.2307 13.9045 15.2279L13.142 13.9361ZM15.6866 14.9905C15.4422 15.2903 15.3117 15.6999 15.3913 16.1228L16.8654 15.8455C16.8754 15.8987 16.8561 15.9299 16.8493 15.9381L15.6866 14.9905ZM13.5126 21.2878C13.5001 21.22 13.5417 21.1145 13.6597 21.0925L13.9347 22.567C14.68 22.428 15.1163 21.7101 14.9876 21.0148L13.5126 21.2878ZM5.84889 20.8061C6.67624 21.385 7.72041 20.8445 7.88817 19.9528L6.41403 19.6755C6.42302 19.6277 6.45865 19.5813 6.51117 19.5582C6.56834 19.533 6.64921 19.5354 6.70878 19.5771L5.84889 20.8061Z"
                         fill="currentColor"
-                      />
+                      ></path>
                     </svg>
                     VPN
-                  </button>
-                  <button
-                    type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
-                    data-tag-show="torrent-client"
-                    onclick="toggle_me(this);"
-                  >
-                    Torrent Client
-                  </button>
-                  <button
-                    type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
-                    data-tag-show="database"
-                    onclick="toggle_me(this);"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      stroke-width="1.5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M20.5 20.5L22 22"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M16 18.5C16 19.8807 17.1193 21 18.5 21C19.1916 21 19.8175 20.7192 20.2701 20.2654C20.7211 19.8132 21 19.1892 21 18.5C21 17.1193 19.8807 16 18.5 16C17.1193 16 16 17.1193 16 18.5Z"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M4 6V12C4 12 4 15 11 15C18 15 18 12 18 12V6"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M11 3C18 3 18 6 18 6C18 6 18 9 11 9C4 9 4 6 4 6C4 6 4 3 11 3Z"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M11 21C4 21 4 18 4 18V12"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    Database
-                  </button>
-                  <button
-                    type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
-                    data-tag-show="online-reading"
-                    onclick="toggle_me(this);"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      stroke-width="1.5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8.5 12H15.5V22L12 20L8.5 22V12Z"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M20 17.6073C21.4937 17.0221 23 15.6889 23 13C23 9 19.6667 8 18 8C18 6 18 2 12 2C6 2 6 6 6 8C4.33333 8 1 9 1 13C1 15.6889 2.50628 17.0221 4 17.6073"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    Online Reading
-                  </button>
-                  <button
-                    type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
-                    data-tag-show="local-reading"
-                    onclick="toggle_me(this);"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      stroke-width="1.5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12 16.01L12.01 15.9989"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M7 19.4V4.6C7 4.26863 7.26863 4 7.6 4H16.4C16.7314 4 17 4.26863 17 4.6V19.4C17 19.7314 16.7314 20 16.4 20H7.6C7.26863 20 7 19.7314 7 19.4Z"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                      />
-                    </svg>
-                    Offline Reading
-                  </button>
-                  <button
-                    type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
-                    data-tag-show="cloud-storage"
-                    onclick="toggle_me(this);"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      stroke-width="1.5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M12 22V13M12 13L15.5 16.5M12 13L8.5 16.5"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M20 17.6073C21.4937 17.0221 23 15.6889 23 13C23 9 19.6667 8 18 8C18 6 18 2 12 2C6 2 6 6 6 8C4.33333 8 1 9 1 13C1 15.6889 2.50628 17.0221 4 17.6073"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    Cloud Storage
-                  </button>
-                  <button
-                    type="button"
-                    class="btn mt-1 rounded-pill btn-outline-primary"
-                    data-tag-show="other"
-                    onclick="toggle_me(this);"
-                  >
-                    <svg
-                      width="24"
-                      height="24"
-                      stroke-width="1.5"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M7 19V11C7 9.89543 7.89543 9 9 9H20C21.1046 9 22 9.89543 22 11V19C22 20.1046 21.1046 21 20 21H9C7.89543 21 7 20.1046 7 19Z"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                      />
-                      <path
-                        d="M6.5 16H4C2.89543 16 2 15.1046 2 14V6C2 4.89543 2.89543 4 4 4H15C16.1046 4 17 4.89543 17 6V9"
-                        stroke="currentColor"
-                        stroke-width="1.5"
-                      />
-                      <path
-                        d="M10 12H11"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                      <path
-                        d="M5 7H6"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                    Other
                   </button>
                   <!-- results -->
                   <div class="row">
@@ -644,13 +365,1244 @@
         <p class="float-end mb-1">
           <a href="#">Back to top</a>
         </p>
-        <p class="mb-1">PageZero.xyz | Version 1.0.1</p>
+        <p class="mb-1">
+          PageZero.xyz | Version 1.2.0 |
+          <a href="http://github.com/tusx/pagezero/">Github</a>
+        </p>
         <p class="mb-0">
-          This is a curated collection of links and is contantly updated.
+          This is a curated collection of links and is contantly updated. If you
+          want to submit a link or want a link to be added to the list please
+          open an issue at <a href="http://github.com/tusx/pagezero/">Github</a>
         </p>
       </div>
     </footer>
-    <script src="main.js"></script>
+    <script>
+      window.addEventListener("load", (event) => {
+        let site_list = get_sites_with_tag("search-engine");
+        let sites_for_cat = get_links_for_cat(site_list);
+        show_links(sites_for_cat);
+      });
+      const link_cat = [
+        "general",
+        "news",
+        "streaming",
+        "live",
+        "torrent",
+        "reading",
+        "other",
+      ];
+      const cat_discription = {
+        general: "General:",
+        news: "News:",
+        streaming: "Streaming:",
+        live: "Watch Live",
+        torrent: "Torrent Trackers:",
+        reading: "Read Online:",
+        other: "Other Links:",
+      };
+
+      function toggle_me(ele) {
+        change_btn_class(ele);
+        let tag = ele.getAttribute("data-tag-show");
+        let site_list = get_sites_with_tag(tag);
+        let sites_for_cat = get_links_for_cat(site_list);
+        show_links(sites_for_cat);
+      }
+
+      function change_btn_class(ele) {
+        let collection = document.getElementsByClassName("clas-btn");
+        for (let index = 0; index < collection.length; index++) {
+          if (collection[index].classList.contains("btn-success")) {
+            collection[index].classList.toggle("btn-success");
+            collection[index].classList.toggle("text-white");
+            collection[index].classList.toggle("btn-outline-primary");
+          }
+        }
+
+        ele.classList.toggle("btn-success");
+        ele.classList.toggle("text-white");
+        ele.classList.toggle("btn-outline-primary");
+      }
+
+      function get_sites_with_tag(tag) {
+        let site_list = {};
+        for (let site in sites) {
+          let sitename = site;
+          let tags = sites[site]["tags"];
+          // console.log(tags);
+          if (tags.includes(tag)) {
+            site_list[sitename] = tags;
+          }
+        }
+
+        return site_list;
+      }
+
+      function get_links_for_cat(site_list) {
+        // below var will have all the links with catg
+        let site_with_tag = {};
+        // console.log(site_list);
+        // run through all cats
+        for (let index = 0; index < link_cat.length; index++) {
+          // get the cat name
+          let cat = link_cat[index];
+          //  so that each sites can be added as array and later merged
+          let each_cat_links = {};
+          //  run through each sites we found and see if they belong to one of the cat
+          for (let site in site_list) {
+            // get all the tags for this site
+            let tag = site_list[site];
+            // check if this site belongs to a cat
+            if (tag.includes(cat)) {
+              each_cat_links[site] = "found";
+            }
+          }
+
+          // console.log(Object.keys(each_cat_links).length);
+          // check if this cat has any links from the list or not
+          if (Object.keys(each_cat_links).length !== 0) {
+            // if links are there then will merge to main arrays
+            site_with_tag[cat] = each_cat_links;
+          }
+        }
+        // console.log(site_with_tag);
+        return site_with_tag;
+      }
+
+      function show_links(link_arrays) {
+        let all_linkz = "";
+        // now we will go through all the cat
+        for (let cat in link_arrays) {
+          let cat_dis = cat_discription[cat];
+          cat_dis = '<p class="mt-2 mb-0 ">' + cat_dis + "</p>";
+          let all_btn = "";
+          for (let site in link_arrays[cat]) {
+            let btn = `<div class="btn-group mt-1">
+            <a href="${sites[site]["link"]}" target="_blank" type="button" class="btn text-white" style="background-color: rgb(46, 87, 147) !important; --darkreader-inline-bgcolor: #254676;" data-darkreader-inline-bgcolor="">
+            ${sites[site]["title"]}
+            </a>
+            <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split border-start" data-bs-toggle="dropdown" aria-expanded="true">
+            <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item">N/A</a></li>
+            </ul>
+            </div> `;
+            all_btn += btn;
+          }
+          // console.log(cat);
+          all_linkz += cat_dis + all_btn;
+        }
+        document.getElementById("linkz").innerHTML = all_linkz;
+      }
+
+      const sites = {
+        searx: {
+          title: "Searx",
+          link: "https://searx.be",
+          tags: ["search-engine", "general"],
+          rank: 100000,
+        },
+        "brave-search": {
+          title: "Brave Search",
+          link: "https://search.brave.com/",
+          tags: ["search-engine", "general"],
+          rank: 552,
+        },
+        duckduckgo: {
+          title: "Duckduckgo",
+          link: "https://duckduckgo.com",
+          tags: ["search-engine", "general"],
+          rank: 100000,
+        },
+        yandex: {
+          title: "Yandex",
+          link: "https://Yandex.com",
+          tags: ["search-engine", "general"],
+          rank: 100000,
+        },
+        bing: {
+          title: "Bing",
+          link: "https://bing.com",
+          tags: ["search-engine", "general"],
+          rank: 100000,
+        },
+        baidu: {
+          title: "Baidu",
+          link: "https://baidu.com",
+          tags: ["search-engine", "general"],
+          rank: 100000,
+        },
+        google: {
+          title: "Google",
+          link: "https://google.com",
+          tags: ["search-engine", "general"],
+          rank: 100000,
+        },
+        ecosia: {
+          title: "Ecosia",
+          link: "https://ecosia.org",
+          tags: ["search-engine", "general"],
+          rank: 100000,
+        },
+        btdig: {
+          title: "Btdig",
+          link: "https://btdig.com",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        solidtorrents: {
+          title: "Solidtorrents",
+          link: "https://solidtorrents.net",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        torrentseeker: {
+          title: "Torrentseeker",
+          link: "https://torrentseeker.com",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        animetosho: {
+          title: "Animetosho",
+          link: "https://animetosho.org",
+          tags: ["torrent", "anime"],
+          rank: 100000,
+        },
+        anidex: {
+          title: "Anidex",
+          link: "https://anidex.info",
+          tags: ["torrent", "anime"],
+          rank: 2,
+        },
+        tokyotosho: {
+          title: "Tokyotosho",
+          link: "https://tokyotosho.info",
+          tags: ["torrent", "anime"],
+          rank: 2,
+        },
+        aiosearch: {
+          title: "Aiosearch",
+          link: "https://aiosearch.com",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        dirtytorrents: {
+          title: "Dirtytorrents",
+          link: "https://dirtytorrents.com",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        bt4g: {
+          title: "Bt4g.org",
+          link: "https://bt4g.org",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        snowfl: {
+          title: "Snowfl",
+          link: "https://snowfl.com",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        bitsearch: {
+          title: "Bitsearch",
+          link: "https://bitsearch.to",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        btmet: {
+          title: "Btmet",
+          link: "https://btmet.com",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        atorrents: {
+          title: "Atorrents",
+          link: "https://atorrents.com",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        rutor: {
+          title: "Rutor",
+          link: "http://rutor.info",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        veoble: {
+          title: "Veoble",
+          link: "https://veoble.com/torrent/",
+          tags: ["torrent", "search-engine"],
+          rank: 100000,
+        },
+        faganfinder: {
+          title: "Faganfinder",
+          link: "https://faganfinder.com",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        wiby: {
+          title: "Wiby",
+          link: "https://wiby.me",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        theoldnet: {
+          title: "Theoldnet",
+          link: "https://theoldnet.com",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        "trace-moe": {
+          title: "Trace.moe",
+          link: "https://trace.moe",
+          tags: ["other", "search-engine", "anime"],
+          rank: 100000,
+        },
+        filelisting: {
+          title: "Filelisting",
+          link: "https://filelisting.com",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        dedigger: {
+          title: "Dedigger",
+          link: "https://dedigger.com",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        "mmnt-ru": {
+          title: "Mmnt.ru",
+          link: "https://mmnt.ru",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        mibbit: {
+          title: "Mibbit",
+          link: "https://search.mibbit.com",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        searchftps: {
+          title: "Searchftps",
+          link: "https://searchftps.net",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        filepursuit: {
+          title: "Filepursuit",
+          link: "https://filepursuit.com",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        odcrawler: {
+          title: "Odcrawler",
+          link: "https://odcrawler.xyz",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        "libraries-io": {
+          title: "Libraries.io",
+          link: "https://libraries.io",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        gifcities: {
+          title: "Gifcities",
+          link: "https://gifcities.org",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        "shodan-io": {
+          title: "Shodan.io",
+          link: "https://shodan.io",
+          tags: ["other", "search-engine"],
+          rank: 100000,
+        },
+        "ling-online": {
+          title: "Ling.online",
+          link: "https://ling.online/en/videos/films/",
+          tags: ["movie", "tv", "streaming"],
+          rank: 100000,
+        },
+        "tubi-tv": {
+          title: "tubi.tv",
+          link: "https://tubitv.com",
+          tags: ["movie", "tv", "streaming"],
+          rank: 100000,
+        },
+        moviesfoundonline: {
+          title: "moviesfoundonline",
+          link: "https://moviesfoundonline.com",
+          tags: ["movie", "streaming"],
+          rank: 100000,
+        },
+        "contv.com": {
+          title: "Contv.com",
+          link: "https://contv.com",
+          tags: ["anime", "movie", "live", "comic", "streaming"],
+          rank: 100000,
+        },
+        midnightpulp: {
+          title: "Midnightpulp",
+          link: "https://midnightpulp.com/browse/anime",
+          tags: ["anime", "movie", "tv", "streaming"],
+          rank: 100000,
+        },
+        asiancrush: {
+          title: "Asiancrush",
+          link: "https://asiancrush.com/browse/anime",
+          tags: ["anime", "movie", "tv", "streaming"],
+          rank: 100000,
+        },
+
+        themoviedb: {
+          title: "Themoviedb",
+          link: "https://themoviedb.org",
+          tags: ["movie", "news", "tv", "general"],
+          rank: 100000,
+        },
+        imdb: {
+          title: "Imdb",
+          link: "https://imdb.com/",
+          tags: ["movie", "news", "tv", "general"],
+          rank: 100000,
+        },
+        rottentomatoes: {
+          title: "Rottentomatoes",
+          link: "https://rottentomatoes.com",
+          tags: ["movie", "news", "tv", "general"],
+          rank: 100000,
+        },
+        comingsoon: {
+          title: "Comingsoon",
+          link: "https://comingsoon.net",
+          tags: ["movie", "tv", "news"],
+          rank: 100000,
+        },
+        screenrant: {
+          title: "Screenrant",
+          link: "https://screenrant.com",
+          tags: ["movie", "news", "tv"],
+          rank: 100000,
+        },
+        fmovies: {
+          title: "Fmovies",
+          link: "https://fmovies.to",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        yesmovies: {
+          title: "Yesmovies",
+          link: "https://yesmovies.ag",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        zoechip: {
+          title: "Zoechip",
+          link: "https://zoechip.com",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        "c1ne-co": {
+          title: "C1ne.co",
+          link: "https://c1ne.co",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        soap2day: {
+          title: "Soap2day",
+          link: "https://soapgate.org",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        series9: {
+          title: "Series9",
+          link: "https://series9.la",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        onionplay: {
+          title: "Onionplay",
+          link: "https://onionplay.se",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        moviestars: {
+          title: "Moviestars",
+          link: "https://moviestars.to",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        azmovies: {
+          title: "AZmovies",
+          link: "https://azm.to",
+          tags: ["movie", "streaming"],
+          rank: 100000,
+        },
+        himovies: {
+          title: "Himovies",
+          link: "https://himovies.to",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        ev01: {
+          title: "ev01",
+          link: "https://ev01.to",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        hdmoviebox: {
+          title: "HDmoviebox",
+          link: "https://hdmoviebox.org",
+          tags: ["movie", "tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        "noxx-is": {
+          title: "Noxx.is",
+          link: "https://noxx.is",
+          tags: ["tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+
+        srsone: {
+          title: "Srsone",
+          link: "https://srsone.click",
+          tags: ["tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        "tvseries-watch": {
+          title: "Tvseries.watch",
+          link: "https://tvseries.watch",
+          tags: ["tv", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        turkish123: {
+          title: "Turkish123",
+          link: "https://turkish123.com",
+          tags: ["tv", "streaming"],
+          rank: 100000,
+        },
+        "archive-org-movie": {
+          title: "Archive.org Movies",
+          link: "https://archive.org/details/moviesandfilms?tab=collection",
+          tags: ["other", "movie", "tv", "streaming"],
+          rank: 100000,
+        },
+        rarefilmm: {
+          title: "Rarefilmm",
+          link: "https://rarefilmm.com",
+          tags: ["other", "movie", "streaming"],
+          rank: 100000,
+        },
+        classiccinemaonline: {
+          title: "Classiccinemaonline",
+          link: "https://classiccinemaonline.com",
+          tags: ["other", "movie", "streaming"],
+          rank: 100000,
+        },
+        thefilmdetective: {
+          title: "Thefilmdetective",
+          link: "https://thefilmdetective.tv",
+          tags: ["other", "movie", "streaming"],
+          rank: 100000,
+        },
+        thewutangcollection: {
+          title: "thewutangcollection",
+          link: "https://thewutangcollection.com",
+          tags: ["other", "movie", "streaming"],
+          rank: 100000,
+        },
+
+        "Library-of-Congress": {
+          title: "Library of Congress",
+          link: "https://loc.gov/film-and-videos/",
+          tags: ["other", "streaming"],
+          rank: 100000,
+        },
+        footagefarm: {
+          title: "footagefarm",
+          link: "https://footagefarm.com",
+          tags: ["other", "streaming"],
+          rank: 100000,
+        },
+        "Japanese-Animated-Film-Archive": {
+          title: "Japanese Animated Film Archive",
+          link: "https://animation.filmarchives.jp",
+          tags: ["other", "streaming"],
+          rank: 100000,
+        },
+        "Japanese-Film-Archive": {
+          title: "Japanese Film Archive",
+          link: "https://meiji.filmarchives.jp",
+          tags: ["other", "streaming"],
+          rank: 100000,
+        },
+        "jp-films": {
+          title: "jp-films",
+          link: "https://jp-films.com",
+          tags: ["other", "streaming"],
+          rank: 100000,
+        },
+        "nfb-ca": {
+          title: "nfb.ca",
+          link: "https://nfb.ca",
+          tags: ["other", "streaming"],
+          rank: 100000,
+        },
+        myanimelist: {
+          title: "Myanimelist",
+          link: "https://myanimelist.net",
+          tags: ["anime", "news", "general"],
+          rank: 100000,
+        },
+        anidb: {
+          title: "Anidb",
+          link: "https://anidb.net",
+          tags: ["anime", "general"],
+          rank: 100000,
+        },
+        anilist: {
+          title: "Anilist",
+          link: "https://anilist.co",
+          tags: ["anime", "general"],
+          rank: 100000,
+        },
+        anisearch: {
+          title: "Anisearch",
+          link: "https://anisearch.com",
+          tags: ["anime", "general"],
+          rank: 100000,
+        },
+        annict: {
+          title: "Annict",
+          link: "https://en.annict.com",
+          tags: ["anime", "general"],
+          rank: 100000,
+        },
+        "anime-planet": {
+          title: "Anime planet",
+          link: "https://anime-planet.com",
+          tags: ["anime", "general"],
+          rank: 100000,
+        },
+        mangaupdates: {
+          title: "Mangaupdates",
+          link: "https://mangaupdates.com/releases.html",
+          tags: ["manga", "forum"],
+          rank: 100000,
+        },
+        animenewsnetwork: {
+          title: "Animenewsnetwork",
+          link: "https://animenewsnetwork.com",
+          tags: ["anime", "manga", "news"],
+          rank: 100000,
+        },
+        kitsu: {
+          title: "Kitsu",
+          link: "https://kitsu.io",
+          tags: ["anime", "general"],
+          rank: 100000,
+        },
+        otakuusamagazine: {
+          title: "Otakuusamagazine",
+          link: "https://otakuusamagazine.com",
+          tags: ["anime", "manga", "news"],
+          rank: 100000,
+        },
+        funimation: {
+          title: "Funimation",
+          link: "https://funimation.com",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        crunchyroll: {
+          title: "Crunchyroll",
+          link: "https://crunchyroll.com",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        "tubi-tv-anime": {
+          title: "tubi.tv Anime",
+          link: "https://tubitv.com/category/anime",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        retrocrush: {
+          title: "Retrocrush",
+          link: "https://retrocrush.tv",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        "pokemon-com": {
+          title: "Pokemon.com",
+          link: "https://watch.pokemon.com",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        "zoro-to": {
+          title: "Zoro.to",
+          link: "https://zoro.to",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        "9anime": {
+          title: "9anime",
+          link: "https://9anime.to",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        "5anime": {
+          title: "5anime",
+          link: "https://5anime.net",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        genoanime: {
+          title: "Genoanime",
+          link: "https://genoanime.sbs",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        animepahe: {
+          title: "Animepahe",
+          link: "https://animepahe.ru",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        animefox: {
+          title: "Animefox",
+          link: "https://animefox.io",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        anime8: {
+          title: "Anime8",
+          link: "https://anime8.ru",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        "11anime": {
+          title: "11anime",
+          link: "https://11anime.fr",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        gogoanime: {
+          title: "Gogoanime",
+          link: "https://gogoanime.lu",
+          tags: ["anime", "streaming"],
+          rank: 100000,
+        },
+        "wco-tv": {
+          title: "Wco.tv",
+          link: "https://wco.tv",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+        kisscartoon: {
+          title: "kisscartoon",
+          link: "https://kisscartoon.help",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+        kimcartoon: {
+          title: "kimcartoon",
+          link: "https://kimcartoon.li",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+        toonamiaftermath: {
+          title: "Toonamiaftermath",
+          link: "https://toonamiaftermath.com",
+          tags: ["cartoon", "anime", "movie", "live"],
+          rank: 100000,
+        },
+        "adult-swim-live": {
+          title: "Adult Swim",
+          link: "https://www.adultswim.com/streams/",
+          tags: ["cartoon", "tv", "live"],
+          rank: 100000,
+        },
+        "kisscartoon-info": {
+          title: "kisscartoon.info",
+          link: "https://kisscartoon.info",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+        "watchcartoononline-bz": {
+          title: "Watchcartoononline.bz",
+          link: "https://watchcartoononline.bz",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+
+        "diseny-video": {
+          title: "Diseny video",
+          link: "https://video.disney.com/series/",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+        topcartoons: {
+          title: "Topcartoons",
+          link: "https://topcartoons.tv",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+        supercartoons: {
+          title: "Supercartoons",
+          link: "https://supercartoons.net",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+        "b98-tv": {
+          title: "B98.tv",
+          link: "https://b98.tv",
+          tags: ["cartoon", "streaming"],
+          rank: 100000,
+        },
+        aniyomi: {
+          title: "Aniyomi",
+          link: "https://github.com/jmir1/aniyomi",
+          tags: ["other", "anime", "cartoon", "streaming"],
+          rank: 100000,
+        },
+        "themes-moe": {
+          title: "Themes.moe",
+          link: "https://themes.moe",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        "openings-moe": {
+          title: "Openings.moe",
+          link: "https://openings.moe",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        Animeflix: {
+          title: "Animeflix",
+          link: "https://github.com/chirag-droid/animeflix",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        "420-moe": {
+          title: "420.moe",
+          link: "https://420.moe",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        "nik.bot-nu": {
+          title: "nik.bot.nu",
+          link: "https://nik.bot.nu",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        "satania-moe": {
+          title: "Satania.moe",
+          link: "https://satania.moe",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        "Anime-Girls-Holding-Programming-Books": {
+          title: "Anime Girls Holding Programming Books",
+          link: "https://github.com/laynH/Anime-Girls-Holding-Programming-Books",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        fantasyanime: {
+          title: "Fantasyanime",
+          link: "https://fantasyanime.com",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        osanime: {
+          title: "Osanime",
+          link: "https://osanime.com",
+          tags: ["other", "anime"],
+          rank: 100000,
+        },
+        "Banned-cartoons": {
+          title: "Banned cartoons",
+          link: "https://web.archive.org/web/20170823090710/http://www.rotten.com/library/culture/banned-cartoons",
+          tags: ["other", "cartoon"],
+          rank: 100000,
+        },
+        comicsalliance: {
+          title: "Comicsalliance",
+          link: "https://comicsalliance.com",
+          tags: ["comic", "news"],
+          rank: 100000,
+        },
+        "r-comicbooks": {
+          title: "r/comicbooks",
+          link: "https://reddit.com/r/comicbooks/",
+          tags: ["comic", "other"],
+          rank: 100000,
+        },
+        "cbr-com": {
+          title: "Cbr.com",
+          link: "https://cbr.com",
+          tags: ["comic", "cartoon", "news"],
+          rank: 100000,
+        },
+        "ifanboy-com": {
+          title: "ifanboy.com",
+          link: "https://ifanboy.com",
+          tags: ["comic", "cartoon", "news"],
+          rank: 100000,
+        },
+        "manga-tokyo": {
+          title: "Manga.tokyo",
+          link: "https://manga.tokyo",
+          tags: ["manga", "news"],
+          rank: 100000,
+        },
+
+        "archive-org-comics": {
+          title: "Archive.org Comics",
+          link: "https://archive.org/details/texts?query=comic",
+          tags: ["comic", "reading"],
+          rank: 100000,
+        },
+        "readcomiconline-li": {
+          title: "Readcomiconline.li",
+          link: "https://readcomiconline.li",
+          tags: ["comic", "reading"],
+          rank: 100000,
+        },
+        "readcomicsonline-ru": {
+          title: "Readcomicsonline.ru",
+          link: "https://readcomicsonline.ru",
+          tags: ["comics", "reading"],
+          rank: 100000,
+        },
+        comicextra: {
+          title: "Comicextra",
+          link: "https://comicextra.com",
+          tags: ["comic", "reading"],
+          rank: 100000,
+        },
+        "viewcomics-me": {
+          title: "Viewcomics.me",
+          link: "https://viewcomics.me",
+          tags: ["comic", "reading"],
+          rank: 100000,
+        },
+        "archive-org-manga": {
+          title: "Archive.org Manga",
+          link: "https://archive.org/details/texts?query=manga",
+          tags: ["manga", "reading"],
+          rank: 100000,
+        },
+        kissmanga: {
+          title: "kissmanga",
+          link: "https://kissmanga.in",
+          tags: ["manga", "reading"],
+          rank: 100000,
+        },
+        manga4life: {
+          title: "Manga4life",
+          link: "https://manga4life.com",
+          tags: ["manga", "reading"],
+          rank: 100000,
+        },
+        mangahere: {
+          title: "Mangahere",
+          link: "https://mangahere.cc",
+          tags: ["manga", "reading"],
+          rank: 100000,
+        },
+        "alpha-scans": {
+          title: "Alpha Scans",
+          link: "https://alpha-scans.org",
+          tags: ["manga", "reading"],
+          rank: 100000,
+        },
+        "bato-to": {
+          title: "Bato.to",
+          link: "https://bato.to",
+          tags: ["manga", "reading"],
+          rank: 100000,
+        },
+        "mangasee-net": {
+          title: "Mangasee.net",
+          link: "https://mangasee.net",
+          tags: ["manga", "reading"],
+          rank: 100000,
+        },
+        "mangadex-org": {
+          title: "Mangadex.org",
+          link: "https://mangadex.org",
+          tags: ["manga", "reading"],
+          rank: 100000,
+        },
+        tachiyomi: {
+          title: "Tachiyomi",
+          link: "https://github.com/tachiyomiorg/tachiyomi",
+          tags: ["manga", "comic", "other"],
+          rank: 100000,
+        },
+        mcomix: {
+          title: "Mcomix",
+          link: "https://sourceforge.net/projects/mcomix/",
+          tags: ["manga", "comic", "other"],
+          rank: 100000,
+        },
+        OpenComic: {
+          title: "OpenComic",
+          link: "https://github.com/ollm/OpenComic",
+          tags: ["manga", "comic", "other"],
+          rank: 100000,
+        },
+        YACReader: {
+          title: "YACReader",
+          link: "https://github.com/YACReader/yacreader",
+          tags: ["manga", "comic", "other"],
+          rank: 100000,
+        },
+        "r-Marvel": {
+          title: "r/Marvel",
+          link: "https://reddit.com/r/Marvel/",
+          tags: ["other", "comic"],
+          rank: 100000,
+        },
+        "r-DC": {
+          title: "r/DC",
+          link: "https://reddit.com/r/DC/",
+          tags: ["other", "comic"],
+          rank: 100000,
+        },
+        ComicEater: {
+          title: "ComicEater",
+          link: "https://github.com/kanjieater/ComicEater",
+          tags: ["other", "comic"],
+          rank: 100000,
+        },
+        webcomix: {
+          title: "Webcomix",
+          link: "https://github.com/J-CPelletier/webcomix",
+          tags: ["other", "comic"],
+          rank: 100000,
+        },
+        "comicfury-com": {
+          title: "comicfury.com",
+          link: "https://comicfury.com",
+          tags: ["other", "comic"],
+          rank: 100000,
+        },
+        torrentfreak: {
+          title: "Torrentfreak",
+          link: "https://torrentfreak.com",
+          tags: ["torrent", "news"],
+          rank: 100000,
+        },
+        mullvad: {
+          title: "Mullvad",
+          link: "https://mullvad.net",
+          tags: ["vpn", "general"],
+          rank: 100000,
+        },
+        ivpn: {
+          title: "Ivpn",
+          link: "https://ivpn.net",
+          tags: ["vpn", "general"],
+          rank: 100000,
+        },
+        "4chan-t": {
+          title: "4chan/t/",
+          link: "https://boards.4chan.org/t/",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        qbittorrent: {
+          title: "qbittorrent",
+          link: "https://qbittorrent.org",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        transmission: {
+          title: "Transmission",
+          link: "https://transmissionbt.com",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        deluge: {
+          title: "Deluge",
+          link: "https://deluge-torrent.org",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        LibreTorrent: {
+          title: "LibreTorrent",
+          link: "https://gitlab.com/proninyaroslav/libretorrent",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        BiglyBT: {
+          title: "BiglyBT",
+          link: "https://github.com/BiglySoftware/BiglyBT-Android",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        "webtor-io": {
+          title: "Webtor.io",
+          link: "https://webtor.io",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        "instant-io": {
+          title: "Instant.io",
+          link: "https://instant.io",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        torrentsafe: {
+          title: "Torrentsafe",
+          link: "https://torrentsafe.com",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        bitport: {
+          title: "Bitport",
+          link: "https://bitport.io",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        bitford: {
+          title: "Bitford",
+          link: "https://github.com/astro/bitford",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        jstorrent: {
+          title: "JsTorrent",
+          link: "https://github.com/kzahel/jstorrent",
+          tags: ["orrent-client"],
+          rank: 100000,
+        },
+        "YTS-mx": {
+          title: "YTS.mx",
+          link: "https://yts.mx",
+          tags: ["torrent", "movie"],
+          rank: 100000,
+        },
+        thepiratebay: {
+          title: "Thepiratebay",
+          link: "https://proxybay.github.io",
+          tags: ["torrent", "movie", "tv", "game"],
+          rank: 100000,
+        },
+        "1337x": {
+          title: "1337x",
+          link: "https://1337x.to",
+          tags: ["torrent", "movie", "tv", "game"],
+          rank: 100000,
+        },
+        rarbg: {
+          title: "Rarbg",
+          link: "https://rarbg.to",
+          tags: ["torrent", "movie", "tv", "game"],
+          rank: 100000,
+        },
+        "NYAA-si": {
+          title: "NYAA.si",
+          link: "https://nyaa.si",
+          tags: ["torrent", "anime"],
+          rank: 100000,
+        },
+        "EZTV-re": {
+          title: "EZTV.re",
+          link: "https://EZTV.re",
+          tags: ["torrent", "tv"],
+          rank: 100000,
+        },
+        "fitgirl-repacks": {
+          title: "Fitgirl-Repacks",
+          link: "https://fitgirl-repacks.site",
+          tags: ["torrent", "game"],
+          rank: 100000,
+        },
+        limetorrents: {
+          title: "Limetorrents",
+          link: "https://limetorrents.pro",
+          tags: ["torrent", "movie", "tv", "game"],
+          rank: 100000,
+        },
+        torrentgalaxy: {
+          title: "Torrentgalaxy",
+          link: "https://torrentgalaxy.to",
+          tags: ["torrent", "movie", "tv", "game"],
+          rank: 100000,
+        },
+        torrentdownloads: {
+          title: "Torrentdownloads",
+          link: "https://torrentdownloads.pro",
+          tags: ["torrent", "movie", "tv", "game"],
+          rank: 100000,
+        },
+        "Torrent-Legality": {
+          title: "Torrent Legality",
+          link: "https://i.imgur.com/eNdboCs.png",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        "predb-ovh": {
+          title: "predb.ovh",
+          link: "https://predb.ovh",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        "predb-me": {
+          title: "predb.me",
+          link: "https://predb.me",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        "convert-torrent-to-magnet": {
+          title: "convert .torrent to magnet",
+          link: "https://nutbread.github.io/t2m/",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+
+        "r-torrents": {
+          title: "r/torrents",
+          link: "https://reddit.com/r/torrents/",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        "r-vpn-Torrents": {
+          title: "r/vpn Torrents",
+          link: "https://reddit.com/r/vpnTorrents/",
+          tags: ["torrent", "other"],
+          rank: 100000,
+        },
+        "mega-nz": {
+          title: "Mega.nz",
+          link: "https://mega.nz",
+          tags: ["cloud-storage"],
+          rank: 100000,
+        },
+        "google drive": {
+          title: "Google Drive",
+          link: "https://drive.google.com",
+          tags: ["cloud-storage"],
+          rank: 100000,
+        },
+        dropbox: {
+          title: "Dropbox",
+          link: "https://dropbox.com",
+          tags: ["cloud-storage"],
+          rank: 100000,
+        },
+        onedrive: {
+          title: "Onedrive",
+          link: "https://microsoft.com/en-ww/microsoft-365/onedrive/compare-onedrive-plans",
+          tags: ["cloud-storage"],
+          rank: 100000,
+        },
+      };
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"
       integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg=="
