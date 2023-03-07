@@ -1,0 +1,291 @@
+{
+  "links": [
+    {
+      "search-engines": [
+        {
+          "common-search-engine": {
+            "searx": "searx.bar/search",
+            "duckduckgo": "duckduckgo.com",
+            "ecosia": "ecosia.org",
+            "yandex": "Yandex.com",
+            "bing": "bing.com",
+            "baidu": "baidu.com",
+            "google": "google.com"
+          },
+          "torrent-search-engine": {
+            "btdig": "btdig.com",
+            "solidtorrents": "solidtorrents.net",
+            "torrentseeker": "torrentseeker.com",
+            "zooqle": "zooqle.com",
+            "animetosho": "animetosho.org",
+            "seventorrents": "seventorrents.unblockit.how",
+            "aiosearch": "aiosearch.com",
+            "dirtytorrents": "Dirtytorrents.com",
+            "bt4g.org": "bt4g.org",
+            "snowfl": "snowfl.com",
+            "bitsearch": "bitsearch.to",
+            "btmet": "btmet.com",
+            "xbit.pw": "xbit.pw",
+            "atorrents": "atorrents.com",
+            "rutor": "rutor.info",
+            "veoble": "veoble.com/torrent/"
+          },
+          "other-search-engine": {
+            "faganfinder": "faganfinder.com",
+            "wiby": "wiby.me",
+            "theoldnet": "theoldnet.com",
+            "trace.moe": "trace.moe",
+            "filelisting": "filelisting.com",
+            "dedigger": "dedigger.com",
+            "mmnt.ru": "mmnt.ru",
+            "mibbit": "search.mibbit.com",
+            "searchftps": "searchftps.net",
+            "filepursuit": "filepursuit.com",
+            "odcrawler": "odcrawler.xyz",
+            "libraries.io": "libraries.io",
+            "gifcities": "gifcities.org",
+            "shodan.io": "shodan.io"
+          }
+        }
+      ],
+      "movies-and-tv-shows": [
+        {
+          "freemium-streaming": {
+            "tubi tv": "tubitv.com",
+            "moviesfoundonline": "moviesfoundonline.com",
+            "contv.com": "contv.com",
+            "midnightpulp": "midnightpulp.com",
+            "asiancrush": "asiancrush.com",
+            "channel4": "channel4.com",
+            "netzkino.de": "netzkino.de",
+            "crackle": "crackle.com/movies",
+            "vudu": "vudu.com/content/movies/free",
+            "imdb freedive": "imdb.com/freedive/",
+            "popcornflix": "popcornflix.com"
+          },
+          "News-and-general-information": {
+            "themoviedb": "themoviedb.org",
+            "imdb news": "imdb.com/news",
+            "rottentomatoes": "rottentomatoes.com",
+            "comingsoon": "comingsoon.net",
+            "screenrant": "screenrant.com"
+          },
+          "questionable-streaming-sites": {
+            "fmovies": "fmovies.to",
+            "yesmovies": "yesmovies.ag",
+            "zoechip": "zoechip.com",
+            "c1ne.co": "c1ne.co",
+            "primewire": "primewire.li",
+            "soap2day": "soapgate.org",
+            "series9": "series9.me",
+            "ling.online": "ling.online/en/videos/films/",
+            "onionplay": "onionplay.se",
+            "moviestars": "moviestars.to",
+            "azmovies": "azm.to",
+            "himovies": "himovies.to",
+            "ev01": "ev01.net",
+            "hdmoviebox": "hdmoviebox.org"
+          },
+          "tv-shows-questionable-streaming": {
+            "noxx.is": "noxx.is",
+            "couchtuner": "couchtuner.show",
+            "srsone": "srsone.click",
+            "tvseries.watch": "tvseries.watch",
+            "mywatchseries": "mywatchseries.stream",
+            "turkish123": "turkish123.com"
+          },
+          "other-streaming-sites": {
+            "archive.org": "archive.org/details/moviesandfilms?tab=collection",
+            "rarefilmm": "rarefilmm.com",
+            "classiccinemaonline": "classiccinemaonline.com",
+            "thefilmdetective": "thefilmdetective.tv",
+            "thewutangcollection": "thewutangcollection.com",
+            "club-mst3k": "club-mst3k.com",
+            "Library of Congress": "loc.gov/film-and-videos/",
+            "footagefarm": "footagefarm.com",
+            "Japanese Animated Film Archive": "animation.filmarchives.jp",
+            "Japanese Film Archive": "meiji.filmarchives.jp",
+            "jp-films": "jp-films.com",
+            "nfb.ca": "nfb.ca"
+          }
+        }
+      ],
+      "anime-and-cartoon": [
+        {
+          "News-and-general-information": {
+            "myanimelist": "myanimelist.net",
+            "anidb": "anidb.net",
+            "anilist": "anilist.co",
+            "anisearch": "anisearch.com",
+            "annict": "annict.com",
+            "anime planet": "anime-planet.com",
+            "mangaupdates": "mangaupdates.com",
+            "shikimori": "shikimori.one",
+            "animenewsnetwork": "animenewsnetwork.com",
+            "kitsu": "kitsu.io",
+            "otakuusamagazine": "otakuusamagazine.com"
+          },
+          "freemium-streaming": {
+            "funimation": "funimation.com",
+            "crunchyroll": "crunchyroll.com",
+            "tubitv": "tubitv.com/category/anime",
+            "retrocrush": "retrocrush.tv",
+            "midnightpulp": "midnightpulp.com/browse/anime",
+            "asiancrush": "asiancrush.com/browse/anime",
+            "pokemon.com": "watch.pokemon.com",
+            "wakanim.tv": "wakanim.tv",
+            "contv.com": "contv.com",
+            "netzkino.de": "netzkino.de/category/animekino"
+          },
+          "questionable-anime-streaming-sites": {
+            "zoro.to": "zoro.to",
+            "9anime": "9anime.to",
+            "5anime": "5anime.net",
+            "genoanime": "genoanime.com",
+            "animepahe": "animepahe.ru",
+            "animefox": "animefox.io",
+            "anime8": "anime8.ru",
+            "11anime": "11anime.fr",
+            "gogoanime": "gogoanime.fi"
+          },
+          "Cartoon-Streaming": {
+            "wco.tv": "wco.tv",
+            "kisscartoon": "kisscartoon.help",
+            "kimcartoon": "kimcartoon.li",
+            "toonamiaftermath": "toonamiaftermath.com",
+            "kisscartoon.info": "kisscartoon.info",
+            "watchcartoononline.bz": "watchcartoononline.bz",
+            "Anime World India": "anime-world.in",
+            "diseny video": "video.disney.com/series/",
+            "topcartoons": "topcartoons.tv",
+            "supercartoons": "supercartoons.net",
+            "b98.tv": "b98.tv"
+          },
+          "other-anime-or-cartoon-related-sites": {
+            "aniyomi": "github.com/jmir1/aniyomi",
+            "themes.moe": "themes.moe",
+            "openings.moe": "openings.moe",
+            "Animeflix": "github.com/chirag-droid/animeflix",
+            "420.moe": "420.moe",
+            "nik.bot.nu": "nik.bot.nu",
+            "satania.moe": "satania.moe",
+            "Anime Girls Holding Programming Books": "github.com/laynH/Anime-Girls-Holding-Programming-Books",
+            "fantasyanime": "fantasyanime.com",
+            "osanime": "osanime.com",
+            "Banned cartoons": "web.archive.org/web/20170823090710/http://www.rotten.com/library/culture/banned-cartoons"
+          }
+        }
+      ],
+      "manga-and-comics": [
+        {
+          "news-or-general-info-sites": {
+            "comicsalliance": "comicsalliance.com",
+            "r/comicbooks": "reddit.com/r/comicbooks/",
+            "cbr.com": "cbr.com",
+            "ifanboy.com": "ifanboy.com",
+            "mangaupdates": "mangaupdates.com/releases.html",
+            "animenewsnetwork": "animenewsnetwork.com",
+            "manga.tokyo": "manga.tokyo",
+            "MAL manga Store": "myanimelist.net/store"
+          },
+          "online-reading-sources": {
+            "archive.org comics": "archive.org/details/texts?query=comic",
+            "readcomiconline.li": "readcomiconline.li",
+            "readcomicsonline.ru": "readcomicsonline.ru",
+            "comicextra": "comicextra.com",
+            "viewcomics.me": "viewcomics.me",
+            "archive.org manga": "archive.org/details/texts?query=manga",
+            "kissmanga": "kissmanga.in",
+            "manga4life": "manga4life.com",
+            "mangahere": "mangahere.cc",
+            "alpha scans": "alpha-scans.org",
+            "bato.to": "bato.to",
+            "mangasee.net": "mangasee.net",
+            "mangadex.org": "mangadex.org"
+          },
+          "reader-or-magers": {
+            "tachiyomi": "github.com/tachiyomiorg/tachiyomi",
+            "mcomix": "sourceforge.net/projects/mcomix/",
+            "OpenComic": "github.com/ollm/OpenComic",
+            "YACReader": "github.com/YACReader/yacreader"
+          },
+          "other-sites": {
+            "r/Marvel": "reddit.com/r/Marvel/",
+            "r/DC": "reddit.com/r/DC/",
+            "ComicEater": "github.com/kanjieater/ComicEater",
+            "webcomix": "github.com/J-CPelletier/webcomix",
+            "comicfury.com": "comicfury.com"
+          }
+        }
+      ],
+      "torrent-General": [
+        {
+          "news-and-general": {
+            "torrentfreak": "torrentfreak.com"
+          },
+          "recommended-vpn": {
+            "mullvad": "mullvad.net",
+            "ivpn": "ivpn.net"
+          },
+          "torrent-client": {
+            "qbittorrent": "qbittorrent.org",
+            "transmission": "transmissionbt.com",
+            "deluge": "deluge-torrent.org",
+            "LibreTorrent": "gitlab.com/proninyaroslav/libretorrent",
+            "BiglyBT": "github.com/BiglySoftware/BiglyBT-Android"
+          },
+          "web-torrent-clients": {
+            "webtor.io": "webtor.io",
+            "instant.io": "instant.io",
+            "torrentsafe": "torrentsafe.com",
+            "bitport": "bitport.io",
+            "bitford": "github.com/astro/bitford",
+            "jstorrent": "github.com/kzahel/jstorrent"
+          },
+          "popular-torrent-tracker": {
+            "YTS.mx": "yts.mx",
+            "thepiratebay": "proxybay.github.io",
+            "1337x": "1337x.to",
+            "rarbg": "rarbg.to",
+            "NYAA.si": "nyaa.si",
+            "EZTV.re": "EZTV.re",
+            "fitgirl-repacks": "fitgirl-repacks.site",
+            "limetorrents": "limetorrents.pro",
+            "torrentgalaxy": "torrentgalaxy.to",
+            "torrentdownloads": "torrentdownloads.pro"
+          },
+          "Popular-Private-tracker": {
+            "filelist.io": "filelist.io",
+            "torrentleech": "torrentleech.org",
+            "passthepopcorn": "passthepopcorn.me",
+            "broadcasthe.net": "broadcasthe.net",
+            "karagarga": "karagarga.in",
+            "animebytes": "animebytes.tv",
+            "tv-vault": "tv-vault.me",
+            "asiancinema": "asiancinema.me",
+            "morethantv": "morethantv.me"
+          },
+          "other-torrent-related": {
+            "Torrent Legality": "i.imgur.com/eNdboCs.png",
+            "predb.ovh": "predb.ovh",
+            "predb.me": "predb.me",
+            "convert .torrent to magnet": "nutbread.github.io/t2m/",
+            "torrent health checker": "checker.openwebtorrent.com",
+            "r/torrents": "reddit.com/r/torrents/",
+            "r/VPNTorrents": "reddit.com/r/VPNTorrents/"
+          }
+        }
+      ],
+      "storage": [
+        {
+          "cloud-storage": {
+            "mega.nz": "mega.nz",
+            "google drive": "drive.google.com",
+            "dropbox": "dropbox.com",
+            "onedrive": "microsoft.com/en-ww/microsoft-365/onedrive/compare-onedrive-plans"
+          }
+        }
+      ]
+    }
+  ]
+}
